@@ -38,3 +38,5 @@ language:
   ui:
     edit: "编辑"
     chapter_name: ["第 ", " 部分"]
+
+output_dir: "docs"
