@@ -2,7 +2,7 @@
 knit: "bookdown::render_book"
 title: "Manual for Databank"
 author: ["Acx Dep. EC"]
-date: "`r Sys.Date()`"
+date: "2020-08-25"
 description: "This manual will give a detailed introduction of ali-databank and show you how to extract data from it."
 url: ''
 github-repo: xyangwu
@@ -13,13 +13,13 @@ link-citations: yes
 colorlinks: yes
 lot: yes
 lof: yes
-geometry: [b5paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=3.5cm, rmargin=2.5cm]
+geometry: [b5paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=2.5cm, rmargin=2.5cm]
 ---
 
 # Welcome {-} 
 
-```{r echo = FALSE, out.width = "100%"}
-knitr::include_graphics("images/icon-databank2.png")
+```{r echo = FALSE}
+knitr::include_graphics("images/logo-blue.svg")
 ```
 
 这是数据银行和策略中心面板取数的 __"说明手册"__. 
