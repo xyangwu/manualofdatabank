@@ -1,0 +1,40 @@
+new_session: yes
+
+rmd_files: [
+  "index.rmd",
+  "intro.Rmd",
+
+  "ali-databank.Rmd",
+  "01消费者分析.Rmd",
+  "02全链路分布.Rmd",
+  "03链路流转分析.Rmd",
+  "04粉丝会员分析.Rmd",
+  "05自定义分析.Rmd",
+  "06营销活动沉淀.Rmd",
+  "07定制化报告.Rmd",
+  "08数据融合.Rmd",
+  "09数据应用.Rmd",
+  "10数据应用市场.Rmd",
+
+  "ali-strategy.Rmd",
+  "11市场概况.Rmd",
+  "12市场构成-人.Rmd",
+  "13市场构成-货.Rmd",
+  "14市场格局.Rmd",
+  "15品牌增长览概.Rmd",
+  "16消费者细分.Rmd",
+  "17相关性分析.Rmd",
+  "18消费路径分析.Rmd",
+  "19品类偏好分析.Rmd",
+  "20内容分析.Rmd",
+]
+
+book_filename: bookdown
+clean: [packages.bib, bookdown.bbl]
+language:
+  label:
+    fig: "图"
+    tab: "表"
+  ui:
+    edit: "编辑"
+    chapter_name: ["第 ", " 部分"]

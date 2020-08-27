@@ -1,0 +1,11 @@
+# 营销活动沉淀{#sediment}
+
+```{r echo = FALSE, out.width = "85%"}
+knitr::include_graphics("images/databank-sediment.png")
+```
+
+
+## 营销活动沉淀人群列表
+
+*用途*：将阿里各个营销平台的活动人群，沉淀到数据银行，长期追踪和再应用
+

@@ -1,0 +1,17 @@
+# 市场格局{#market_structure}
+
+```{r echo = FALSE, out.width = "85%"}
+
+knitr::include_graphics("images/strategy-market-structure.png")
+
+```
+
+## 品牌分析	
+
+指标：销售金额，销量，平均价格，购买人数，购买频次
+
+
+## 单品分析	
+
+指标：销售金额，销量，购买人数，搜索人数
+

@@ -1,0 +1,8 @@
+# 消费路径分析{#consume_path}
+
+```{r echo = FALSE, out.width = "85%"}
+knitr::include_graphics("images/strategy-market.png")
+```
+
+## 消费路径分析
+

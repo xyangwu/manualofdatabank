@@ -1,0 +1,9 @@
+# 数据融合{#merge}
+
+```{r echo = FALSE, out.width = "85%"}
+knitr::include_graphics("images/databank-link.png")
+```
+
+
+## 数据融合
+

@@ -1,0 +1,9 @@
+# 消费者细分{#customer}
+
+```{r echo = FALSE, out.width = "85%"}
+knitr::include_graphics("images/strategy-customized.png")
+```
+
+## 消费者细分
+
+
