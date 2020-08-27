@@ -8,7 +8,7 @@ bookdown::gitbook:
       after: |
         <li><a href="https://bookdown.org" target="blank">由bookdown编辑</a></li>
     download: [pdf, epub]
-    edit: https://github.com/xyangwu/manualofdatabank/
+    edit: https://github.com/xyangwu/manualofdatabank/%s
     sharing:
       github: yes
       facebook: no

@@ -35,7 +35,8 @@
     
 模块介绍请前往数据银行[品牌类目信息管理](https://databank.open.taobao.com/docs/doc.htm?docType=1&articleId=106592&treeId=336&platformId=46#s6)和策略中心[产品使用手册](https://strategy.tmall.com/docs/315)的官方帮助文档。
 
-<img src="images/icon-databank3.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{images/icon-databank3} 
 
 首先你必须 __登录__你的品牌账号，才能使用以上模块的功能。 不是所有品牌都会开通策略中心。
 

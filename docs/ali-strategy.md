@@ -3,7 +3,8 @@
 # 策略中心介绍 {#strategy-intro}
 
 
-<img src="images/strategy-market.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{images/strategy-market} 
 
 阿里品牌数据银行的策略中心目前主要有10个模块，这份手册按照以下各部分来说明: 
 

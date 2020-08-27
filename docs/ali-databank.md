@@ -3,7 +3,8 @@
 # 数据银行 {#databank-intro}
 
 
-<img src="images/icon-databank4.png" width="100%" />
+
+\includegraphics[width=1\linewidth]{images/icon-databank4} 
 
 阿里的品牌数据银行目前主要有10个模块，这份手册按照以下各部分来说明:  
 
