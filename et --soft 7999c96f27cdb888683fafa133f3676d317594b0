@@ -1,0 +1,41 @@
+[33mcommit 7999c96f27cdb888683fafa133f3676d317594b0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: xyangwu <hellosunny2016@outlook.com>
+Date:   Wed Sep 2 14:48:42 2020 +0800
+
+    modified book structure
+
+[33mcommit b8f831f66ef3ff288a65313de098aaa5969c73f5[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: xyangwu <hellosunny2016@outlook.com>
+Date:   Thu Aug 27 12:38:20 2020 +0800
+
+    add files in docs
+
+[33mcommit 7773a7b107b79e3f6272021bf0039cc7a1b58415[m
+Author: xyangwu <hellosunny2016@outlook.com>
+Date:   Thu Aug 27 12:07:43 2020 +0800
+
+    add docs/.nojekyll
+
+[33mcommit 45d9cf61257908179c0561d0201667f55f21e696[m
+Author: xyangwu <hellosunny2016@outlook.com>
+Date:   Thu Aug 27 12:04:46 2020 +0800
+
+    modified .gitignore
+
+[33mcommit f9ea2efddcb7206f8c8b158b1b6b23857005fff4[m
+Author: xyangwu <hellosunny2016@outlook.com>
+Date:   Thu Aug 27 12:00:42 2020 +0800
+
+    add file 'docs'
+
+[33mcommit 828ffb8b63c3155d71493b85642d63ef6e2c4cab[m
+Author: xyangwu <hellosunny2016@outlook.com>
+Date:   Thu Aug 27 11:28:49 2020 +0800
+
+    add README.md
+
+[33mcommit 95513730a6b6a60bb42c3d616b7ae19cb2a1c435[m
+Author: xyangwu <hellosunny2016@outlook.com>
+Date:   Thu Aug 27 11:04:37 2020 +0800
+
+    wrote files initially

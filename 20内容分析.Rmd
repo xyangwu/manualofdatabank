@@ -1,8 +1,0 @@
-# 内容分析 {#content}
-
-```{r echo = FALSE, out.width = "85%"}
-knitr::include_graphics("images/strategy-market.png")
-```
-
-## 内容分析
-

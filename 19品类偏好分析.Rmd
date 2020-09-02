@@ -1,8 +1,0 @@
-# 品类偏好分析{#preference}
-
-```{r echo = FALSE, out.width = "85%"}
-knitr::include_graphics("images/strategy-market.png")
-```
-
-## 品类偏好分析
-

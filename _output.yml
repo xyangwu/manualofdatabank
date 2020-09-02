@@ -6,7 +6,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">示例</a></li>
       after: |
-        <li><a href="https://bookdown.org" target="blank">由bookdown编辑</a></li>
+        <li><a href="https://bookdown.org" target="blank">使用bookdown编辑</a></li>
     download: [pdf, epub]
     edit: https://github.com/xyangwu/manualofdatabank/%s
     sharing:

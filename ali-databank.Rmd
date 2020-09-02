@@ -1,7 +1,5 @@
 # (PART) 品牌数据银行 {-}
 
-# 数据银行 {#databank-intro}
-
 
 ```{r echo = FALSE, out.width = "100%"}
 knitr::include_graphics("images/icon-databank4.png")
@@ -9,8 +7,8 @@ knitr::include_graphics("images/icon-databank4.png")
 
 阿里的品牌数据银行目前主要有10个模块，这份手册按照以下各部分来说明:  
 
-- 消费者分析 \@ref(customeranalysis) 
-- 全链路分布  \@ref(fulllinks) 
+- 消费者分析
+- 全链路分布 
 - 链路流转分析
 - 粉丝会员分析
 
