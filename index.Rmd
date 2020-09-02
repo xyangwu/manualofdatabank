@@ -15,6 +15,7 @@ colorlinks: yes
 lot: yes
 lof: yes
 geometry: [b5paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=2.5cm, rmargin=2.5cm]
+output_dir: "docs"
 ---
 
 # Hello {-} 
