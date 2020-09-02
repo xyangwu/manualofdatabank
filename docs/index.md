@@ -1,0 +1,35 @@
+---
+knit: "bookdown::render_book"
+title: "Manual for E-commerce Analysis: Data Application (unofficial)"
+author: ["Acx Dep. EC"]
+date: "2020-08-25"
+description: "This manual will give a detailed introduction of ali-databank and show you how to extract data from it."
+url: 'https://github.com/xyangwu/manualofdatabank#/%s'
+github-repo: xyangwu/manualofdatabank
+book_filename: "my-book.Rmd"
+site: bookdown::bookdown_site
+documentclass: ctexbook
+biblio-style: apalike
+link-citations: yes
+colorlinks: yes
+lot: yes
+lof: yes
+geometry: [b5paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=2.5cm, rmargin=2.5cm]
+output_dir: "docs"
+---
+
+# Hello {-} 
+
+<img src="images/logo-blue.png" width="50%" style="display: block; margin: auto;" />
+ 
+ 
+📣这是一份电**电商数据分析** __"简易说明手册"__. 
+
+本手册中使用了大量电商数据分析行业的通用词汇，部分指标、标签的名称和定义来自[阿里品牌数据银行](https://databank.tmall.com/)、[京东数据银行]()等平台。本手册不确定名词建构和指标量化的过程，如果你想了解请前往[阿里数据银行官方文档](https://databank.tmall.com/promotion?path=ems/databankLogin/messageCenterNew&hbg=true#0_0)；这份手册的初版由**安客诚电商分析部门**的小伙伴共同编写，目的是介绍电商数据的处理和应用，促进数据分析工作者间的学习和交流。欢迎读者针对手册内容提供建议。
+
+编写和演示本手册时使用了开源语言R和[RMarkdown](https://rmarkdown.rstudio.com)、 [bookdown](https://bookdown.org)软件包。
+
+
+
+
+

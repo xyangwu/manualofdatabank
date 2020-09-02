@@ -1,0 +1,36 @@
+# 目标消费者 {#customer}
+
+## 人群资产分析
+
+总结一段时间以来消费者人群的数量和结构，是电商营销的最常用和最基础的量化分析。
+数据银行中的P/L是已与品牌和产品产生联系的目标人群,而A/I人群相当于是潜在消费者，它们中的任何一个构成都对品牌至关重要。AIPL人群定义见附录(\@ref(fulllinks)。
+```{r echo = FALSE, screenshot.opts = list(delay = 5)}
+knitr::include_app('https://jshare.com.cn/temp/SSG8si/share/pure', height = '600px')
+```
+
+**应用**:  
+
+    - 深I/浅I
+    - 流转率
+
+**案例:** blahlalaalalala
+
+
+## just-a-subtitle
+
+**应用**: 
+
+## xoxo
+
+**应用**: 
+
+## lol
+
+**应用**: 
+
+## hello,nothing
+
+**应用**: 
+
+
+

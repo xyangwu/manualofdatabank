@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Introduction | Manual for E-commerce Analysis: Data Application (unofficial)</title>
+  <meta name="description" content="This manual will give a detailed introduction of ali-databank and show you how to extract data from it." />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Introduction | Manual for E-commerce Analysis: Data Application (unofficial)" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://github.com/xyangwu/manualofdatabank#/%s" />
+  
+  <meta property="og:description" content="This manual will give a detailed introduction of ali-databank and show you how to extract data from it." />
+  <meta name="github-repo" content="xyangwu/manualofdatabank" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Introduction | Manual for E-commerce Analysis: Data Application (unofficial)" />
+  
+  <meta name="twitter:description" content="This manual will give a detailed introduction of ali-databank and show you how to extract data from it." />
+  
+
+<meta name="author" content="Acx Dep. EC" />
+
+
+<meta name="date" content="2020-08-25" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="customer.html"/>
+<script src="libs/header-attrs-2.3/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="css\style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">示例</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Hello</a></li>
+<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#数据平台和功能模块"><i class="fa fa-check"></i>数据平台和功能模块</a></li>
+<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#怎么来看这份手册"><i class="fa fa-check"></i>怎么来看这份手册</a></li>
+<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#期待"><i class="fa fa-check"></i>期待</a></li>
+<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#acknowledgements"><i class="fa fa-check"></i>Acknowledgements</a></li>
+</ul></li>
+<li class="part"><span><b>I 品牌数据银行</b></span></li>
+<li class="chapter" data-level="1" data-path="customer.html"><a href="customer.html"><i class="fa fa-check"></i><b>1</b> 目标消费者</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="customer.html"><a href="customer.html#人群资产分析"><i class="fa fa-check"></i><b>1.1</b> 人群资产分析</a></li>
+<li class="chapter" data-level="1.2" data-path="customer.html"><a href="customer.html#just-a-subtitle"><i class="fa fa-check"></i><b>1.2</b> just-a-subtitle</a></li>
+<li class="chapter" data-level="1.3" data-path="customer.html"><a href="customer.html#xoxo"><i class="fa fa-check"></i><b>1.3</b> xoxo</a></li>
+<li class="chapter" data-level="1.4" data-path="customer.html"><a href="customer.html#lol"><i class="fa fa-check"></i><b>1.4</b> lol</a></li>
+<li class="chapter" data-level="1.5" data-path="customer.html"><a href="customer.html#hellonothing"><i class="fa fa-check"></i><b>1.5</b> hello,nothing</a></li>
+</ul></li>
+<li class="part"><span><b>II 策略中心</b></span></li>
+<li class="chapter" data-level="2" data-path="strategy-intro.html"><a href="strategy-intro.html"><i class="fa fa-check"></i><b>2</b> 策略中心介绍</a></li>
+<li class="chapter" data-level="3" data-path="market-person.html"><a href="market-person.html"><i class="fa fa-check"></i><b>3</b> 市场构成- 人</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="market-person.html"><a href="market-person.html#市场品类"><i class="fa fa-check"></i><b>3.1</b> 市场品类</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="数据银行.html"><a href="数据银行.html"><i class="fa fa-check"></i><b>A</b> 数据银行</a>
+<ul>
+<li class="chapter" data-level="A.1" data-path="数据银行.html"><a href="数据银行.html#customeranalysis"><i class="fa fa-check"></i><b>A.1</b> 消费者分析</a></li>
+<li class="chapter" data-level="A.2" data-path="数据银行.html"><a href="数据银行.html#fulllinks"><i class="fa fa-check"></i><b>A.2</b> 全链路分布</a></li>
+<li class="chapter" data-level="A.3" data-path="数据银行.html"><a href="数据银行.html#linkflow"><i class="fa fa-check"></i><b>A.3</b> 链路流转分析</a></li>
+<li class="chapter" data-level="A.4" data-path="数据银行.html"><a href="数据银行.html#memberships"><i class="fa fa-check"></i><b>A.4</b> 粉丝会员分析</a></li>
+<li class="chapter" data-level="A.5" data-path="数据银行.html"><a href="数据银行.html#customized"><i class="fa fa-check"></i><b>A.5</b> 自定义分析</a></li>
+<li class="chapter" data-level="A.6" data-path="数据银行.html"><a href="数据银行.html#sediment"><i class="fa fa-check"></i><b>A.6</b> 营销活动沉淀</a></li>
+<li class="chapter" data-level="A.7" data-path="数据银行.html"><a href="数据银行.html#customized_report"><i class="fa fa-check"></i><b>A.7</b> 定制化报告</a></li>
+<li class="chapter" data-level="A.8" data-path="数据银行.html"><a href="数据银行.html#merge"><i class="fa fa-check"></i><b>A.8</b> 数据融合</a></li>
+<li class="chapter" data-level="A.9" data-path="数据银行.html"><a href="数据银行.html#data_apply"><i class="fa fa-check"></i><b>A.9</b> 数据应用</a></li>
+<li class="chapter" data-level="A.10" data-path="数据银行.html"><a href="数据银行.html#数据应用"><i class="fa fa-check"></i><b>A.10</b> 数据应用</a></li>
+<li class="chapter" data-level="A.11" data-path="数据银行.html"><a href="数据银行.html#data_apply_market"><i class="fa fa-check"></i><b>A.11</b> 数据应用市场</a></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="策略中心.html"><a href="策略中心.html"><i class="fa fa-check"></i><b>B</b> 策略中心</a>
+<ul>
+<li class="chapter" data-level="B.1" data-path="策略中心.html"><a href="策略中心.html#market"><i class="fa fa-check"></i><b>B.1</b> 市场概况</a></li>
+<li class="chapter" data-level="B.2" data-path="策略中心.html"><a href="策略中心.html#market-person2"><i class="fa fa-check"></i><b>B.2</b> 市场构成（人）</a></li>
+<li class="chapter" data-level="B.3" data-path="策略中心.html"><a href="策略中心.html#market-goods"><i class="fa fa-check"></i><b>B.3</b> 市场构成（货）</a></li>
+<li class="chapter" data-level="B.4" data-path="策略中心.html"><a href="策略中心.html#market_structure"><i class="fa fa-check"></i><b>B.4</b> 市场格局</a></li>
+<li class="chapter" data-level="B.5" data-path="策略中心.html"><a href="策略中心.html#growth"><i class="fa fa-check"></i><b>B.5</b> 品牌增长览概</a></li>
+<li class="chapter" data-level="B.6" data-path="策略中心.html"><a href="策略中心.html#customer_select"><i class="fa fa-check"></i><b>B.6</b> 消费者细分</a></li>
+<li class="chapter" data-level="B.7" data-path="策略中心.html"><a href="策略中心.html#correlation"><i class="fa fa-check"></i><b>B.7</b> 相关性分析</a></li>
+<li class="chapter" data-level="B.8" data-path="策略中心.html"><a href="策略中心.html#consume_path"><i class="fa fa-check"></i><b>B.8</b> 消费路径分析</a></li>
+<li class="chapter" data-level="B.9" data-path="策略中心.html"><a href="策略中心.html#preference"><i class="fa fa-check"></i><b>B.9</b> 品类偏好分析</a></li>
+<li class="chapter" data-level="B.10" data-path="策略中心.html"><a href="策略中心.html#content"><i class="fa fa-check"></i><b>B.10</b> 内容分析</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://bookdown.org" target="blank">使用bookdown编辑</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Manual for E-commerce Analysis: Data Application (unofficial)</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="introduction" class="section level1 unnumbered" number="">
+<h1>Introduction</h1>
+<p>在电商数据行业，我们总是想方设法地洞察消费者心理</p>
+<div id="数据平台和功能模块" class="section level2 unnumbered" number="">
+<h2>数据平台和功能模块</h2>
+<p>本手册主要按照以下2个平台和平台中的功能模块（数据银行有7大模块，策略中心有）来介绍:</p>
+<ul>
+<li><p>数据银行:</p>
+<ol style="list-style-type: decimal">
+<li>消费者分析</li>
+<li>全链路分布</li>
+<li>链路流转分析</li>
+<li>会员粉丝分析</li>
+<li>自定义分析</li>
+<li>营销活动沉淀</li>
+<li>数据融合</li>
+<li>数据应用</li>
+<li>数据应用市场</li>
+</ol></li>
+<li><p>策略中心:</p>
+<ol style="list-style-type: decimal">
+<li>市场概览</li>
+<li>市场细分</li>
+<li>消费者细分</li>
+<li>相关性分析</li>
+<li>消费路径分析</li>
+<li>品类偏好分析</li>
+<li>内容分析</li>
+<li>品牌渗透追踪</li>
+<li>品牌得失追踪</li>
+<li>产品追踪</li>
+</ol></li>
+</ul>
+<p>模块介绍请前往数据银行<a href="https://databank.open.taobao.com/docs/doc.htm?docType=1&amp;articleId=106592&amp;treeId=336&amp;platformId=46#s6">品牌类目信息管理</a>和策略中心<a href="https://strategy.tmall.com/docs/315">产品使用手册</a>的官方帮助文档。</p>
+<p><img src="images/icon-databank3.png" width="100%" /></p>
+<p>首先,你必须<strong>登录</strong>你的品牌账号，才能使用以上模块的功能。 不是所有品牌都会开通策略中心。</p>
+</div>
+<div id="怎么来看这份手册" class="section level2 unnumbered" number="">
+<h2>怎么来看这份手册</h2>
+<p>如何来学习📝:</p>
+<ul>
+<li><p>数据银行和策略中心面板上的消费者分析、自定义分析等模块中的各级选项、产品类目和时间维度，都会进行分条介绍。</p></li>
+<li><p>重点不在于罗列消费者分析、自定义分析等所需功能，对这些模块的名称和功能进行刻意记忆会增加数据分析过程的枯燥感。在介绍后面会附上相应的使用说明。</p></li>
+<li><p>提供案例进一步介绍这些功能可以实现的分析和洞察。</p></li>
+</ul>
+<p>如果你已熟知这些功能，大可略过在网上就可以搜到的介绍，直接阅读和操练后面的案例。实践是最好的学习方式。</p>
+</div>
+<div id="期待" class="section level2 unnumbered" number="">
+<h2>期待</h2>
+<p>许多主题未能覆盖。。。</p>
+</div>
+<div id="acknowledgements" class="section level2 unnumbered" number="">
+<h2>Acknowledgements</h2>
+<p>xoxoxoxoxoxo</p>
+
+</div>
+</div>
+
+
+
+<p>阿里的品牌数据银行目前主要有10个模块，这份手册按照以下各部分来说明:</p>
+<ul>
+<li>消费者分析</li>
+<li>全链路分布</li>
+<li>链路流转分析</li>
+<li>粉丝会员分析</li>
+</ul>
+<p>数据银行除了面板上直观的可视化数据展示，还有更加灵活和复杂的数据提取功能：</p>
+<ul>
+<li>自定义分析</li>
+<li>营销活动沉淀</li>
+<li>定制化报告</li>
+<li>数据融合</li>
+<li>数据应用</li>
+<li>数据应用市场</li>
+</ul>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="customer.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/xyangwu/manualofdatabank/intro.Rmd",
+"text": "编辑"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown.pdf", "bookdown.epub"],
+"toc": {
+"collapse": "none"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

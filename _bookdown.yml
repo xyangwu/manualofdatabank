@@ -5,7 +5,7 @@ rmd_files: [
   "intro.Rmd",
 
   "ali-databank.Rmd",
-  "消费者人群.Rmd",
+  "目标消费者.Rmd",
 
   "ali-strategy.Rmd",
   "市场览概.Rmd",
@@ -22,3 +22,5 @@ language:
   ui:
     edit: "编辑"
     chapter_name: ["第 ", " 部分"]
+output_dir: "docs"
+
